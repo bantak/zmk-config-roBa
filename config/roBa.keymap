@@ -5,8 +5,11 @@
 
 &mt {
     flavor = "balanced";
+    tapping-term-ms = <250>;
     quick-tap-ms = <0>;
 };
+
+&lt { flavor = "hold-preferred"; };
 
 &trackball {
     automouse-layer = <4>;
