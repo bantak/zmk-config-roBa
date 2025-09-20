@@ -22,6 +22,8 @@
         20 // L
         21 // ;
         22 // Z
+        36 // Option
+        37 // Left Cmd
     >;
 
     require-prior-idle-ms = <200>;
