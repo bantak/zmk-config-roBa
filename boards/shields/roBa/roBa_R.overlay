@@ -24,6 +24,7 @@
         22 // Z
         36 // Option
         37 // Left Cmd
+        42 // Right shift
     >;
 
     require-prior-idle-ms = <200>;
