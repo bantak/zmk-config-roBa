@@ -5,7 +5,7 @@
 
 #define MOUSE 4
 #define SCROLL 5
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 25
 
 &mt {
     flavor = "balanced";
@@ -88,7 +88,7 @@
         scroll_up_down: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
             tap-ms = <40>;
         };
