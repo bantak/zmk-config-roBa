@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 30
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 &mt {
     flavor = "balanced";
@@ -122,7 +122,7 @@
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LEFT_COMMAND  &kp BACKSPACE         &kp SPACE          &lt 1 RIGHT_COMMAND                             &mt_exit_AML_on_tap RIGHT_SHIFT SLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         NUMARROW {
