@@ -89,7 +89,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <50>;
+            tap-ms = <20>;
         };
 
         tog_off: toggle_layer_off {
@@ -122,7 +122,7 @@
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LEFT_COMMAND  &kp BACKSPACE         &kp SPACE          &lt 1 RIGHT_COMMAND                             &mt_exit_AML_on_tap RIGHT_SHIFT SLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K L>;
         };
 
         NUMARROW {
